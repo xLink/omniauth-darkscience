@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/omniauth-ds/version', __FILE__)
+require File.expand_path('../lib/omniauth-darkscience/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Dan Aldridge"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-darkscience"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::DS::VERSION
+  gem.version       = OmniAuth::Darkscience::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.0'
   # Nothing lower than omniauth-oauth2 1.1.1
